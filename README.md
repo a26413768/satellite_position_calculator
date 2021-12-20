@@ -7,6 +7,8 @@ get satellite latitude and longitude and height by using two line element from c
     skyfield
     requests
     BeautifulSoup
+    pyproj
+    bokeh
 
 # How to run
     
