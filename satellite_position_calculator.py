@@ -20,7 +20,7 @@ t = result[TLE_index+97:TLE_index+166]
 UTC= (datetime.datetime.utcnow().year, datetime.datetime.utcnow().month,\
     datetime.datetime.utcnow().day, datetime.datetime.utcnow().hour,\
     datetime.datetime.utcnow().minute, datetime.datetime.utcnow().second)
-print(UTC)
+print("UTC = " + str(UTC))
 #calculate satalite position in ECI frame
 satellite = Satrec.twoline2rv(s, t)
 jd, fr = jday(UTC[0],UTC[1],UTC[2],UTC[3],UTC[4],UTC[5]) # julian day
